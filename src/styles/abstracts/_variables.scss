@@ -1,0 +1,50 @@
+// Neutrals
+$text: #2a2a2a;
+$text-muted: #4a4a4a;
+$paper: #f7f5f2;
+$ink-wash: rgba(0, 0, 0, 0.06);
+
+// Shadows/Highlights
+$cloud-shadow: rgba(0, 0, 0, 0.08);
+$cloud-halo: rgba(255, 255, 255, 0.55);
+
+// Time-of-day Palette
+$morning-1: #FFEDD5;
+$morning-2: #A7C7E7;
+$morning-3: #FFFFFF;
+
+$noon-1: #91D8F7;
+$noon-2: #E9F7FF;
+
+$evening-1: #FFB6B9;
+$evening-2: #CDB4DB;
+$evening-3: #FDE2E4;
+
+$night-1: #0C1445;
+$night-2: #3A3C7A; 
+$night-3: #0F102A;
+
+// Spacing Scale
+$space-2: 2px;
+$space-4: 4px;
+$space-8: 8px;
+$space-12: 12px;
+$space-16: 16px;
+$space-24: 24px;
+$space-32: 32px;
+$space-48: 48px;
+$space-64: 64px;
+
+// z-index Map
+$sky-background: 0;
+$ambient-clouds: 10;
+$thought-clouds: 20;
+$input-dock: 30;
+$overlays: 40;
+
+// Cloud Sizes
+$cloud-size-sm: clamp(120px, 18vw, 220px);
+$cloud-size-md: clamp(180px, 26vw, 320px);
+$cloud-size-lg: clamp(240px, 34vw, 420px);
+
+$thought-max-width: 28ch;
